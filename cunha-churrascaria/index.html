@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Churrascaria Cunha</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/cunha-logo1.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpeg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Cunha Churrascaria</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Av. Prefeito José de vargas sherrer - Acaiaca, Piúma - ES, 29285-000
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Diariamente : 11:00 am ás 15:00 pm</span>
+      </div>
+
+      <a href="tel: (28) 99976-7535" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span"> (28) 99976-7535</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:cunhachurrascaria@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">cunhachurrascaria@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/cunha-logo1.png" width="160" height="50" alt="Cunha- Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/cunha-logo1.png" width="160" height="50" alt="Cunha - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Página Inicial</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Self-service</span>
+            </a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Sobre Nós</span>
+            </a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Nossos Chefes</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contato</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Faça-nos uma visita</p>
+
+          <address class="body-4">
+            Av. Prefeito José de vargas sherrer  <br>
+            Acaiaca, Piúma - ES, 29285-000
+          </address>
+
+          <p class="body-4 navbar-text">Aberto: 11h am - 15:00 pm</p>
+
+          <a href="mailto:cunhachurrascaria@gmail.com" class="body-4 sidebar-link">cunhachurrascaria@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Pedido de Reserva</p>
+
+          <a href="tel:(28) 99976-7535" class="body-1 contact-number hover-underline">
+            (28) 99976-7535
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Encontre uma Mesa</span>
+
+        <span class="text text-2" aria-hidden="true">Encontre uma Mesa</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradição e Higiene</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Alimentos preparados <br>
+              com Amor
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Ambiente familiar e aconchegante
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja nosso Self-service</span>
+
+              <span class="text text-2" aria-hidden="true">Veja nosso Self-service</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Experimente almoçar de frente para praia</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Venha Saborear <br>
+              Nossas Delícias
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Churrasco preparado na hora, com os melhores cortes e temperos
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja nosso Self-service</span>
+
+              <span class="text text-2" aria-hidden="true">Veja nosso Self-service</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-4.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">As melhores opções de entradas</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Preparos bem executados<br>
+              por quem ama o que faz
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Aproveite a vista
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Veja nosso Self-service</span>
+
+              <span class="text text-2" aria-hidden="true">Veja nosso Self-service</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Requisite uma mesa</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Serviço
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">As delícias da culinária local</p>
+
+          <h2 class="headline-1 section-title">Nós Oferecemos o Melhor</h2>
+
+          <p class="section-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+            standard dummy text ever.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpeg" width="285" height="336" loading="lazy" alt="Cortes"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Cortes de Primeira</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Saiba Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpeg" width="285" height="336" loading="lazy" alt="Frutos do Mar"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Pratos com frutos do mar</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Saiba Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpeg" width="285" height="336" loading="lazy" alt="Sobremesas"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Sobremesas e comidas Japonesas</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Saiba Mais</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Prato Especial
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/fraldinha-ao-alho.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Prato Especial</p>
+
+            <h2 class="headline-1 section-title">Fraldinha ao alho</h2>
+
+            <p class="section-text">
+              Um prato que destaca a maciez e o sabor da fraldinha, um corte bovino suculento. A carne é assada, temperada com alho picad, dourado em manteiga, realçando seu aroma e sabor. É uma receita simples e deliciosa, servida com acompanhamentos como arroz, salada ou batatas.
+            </p>
+
+            <div class="wrapper">
+              <span class="span body-1">De segunda á sexta</span>
+              <span class="span body-1">$79.90</span>
+              <span class="span body-1">Aos sábados e domingo</span>
+              <span class="span body-1">$89.90</span>
+            </div>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Testemunhas
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpeg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Queremos agradecer pelo sorteio desse almoço tão agradável no dia dos namorados, a experiência foi ótima.
+            Eu e minha esposa aproveitamos para experimentar a tão famosa fraldinha ao alho, o que nos deixou com água na boca.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.png" width="100" height="100" loading="lazy" alt="José Elton"
+              class="img">
+
+            <p class="label-2 profile-name">José Elton</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Reservas
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Agende sua reserva</h2>
+
+              <p class="form-text text-center">
+                Reserve nosso espaço <a href="tel:(28) 99976-7535 class="link">(28) 99976-7535</a>
+                ou preencha o formulário
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Seu Nome" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Número de Telefone" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Pessoa</option>
+                    <option value="2-person">2 Pessoas</option>
+                    <option value="3-person">3 Pessoas</option>
+                    <option value="4-person">4 Pessoas</option>
+                    <option value="5-person">5 Pessoas</option>
+                    <option value="6-person">6 Pessoas</option>
+                    <option value="7-person">7 Pessoas</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Mensagem" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Conclua a reserva</span>
+
+                <span class="text text-2" aria-hidden="true">Conclua a reserva</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Fale Conosco </h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:(28) 99976-7535" class="body-1 contact-number hover-underline">(28) 99976-7535</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Localização</p>
+
+              <address class="body-4">
+                RAv. Prefeito José de vargas sherrer <br> 
+                Acaiaca, Piúma - ES, 29285-000
+              </address>
+
+              <p class="contact-label">Horário de Almoço</p>
+
+              <p class="body-4">
+                Segunda à Domingo <br>
+                11:00 am ás 15:00 pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Por que nos escolher?</p>
+
+          <h2 class="headline-1 section-title">Nosso Diferencial</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Máxima Higiene no Preparo</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Ambiente fresco, de frente para o mar</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Profissionais treinados</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Recebemos Eventos</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Atualizações Recentes</p>
+
+          <h2 class="section-title headline-1 text-center">Próximos Eventos</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/12/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Corrida, Almoço</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Estaremos servindo bebidas para apoiar os corredores
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">24/11/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Degustação ao Ar Livre</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Em homenagem ao dia da emancipação, iremos oferecer uma degustação de churrasco
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.png" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">20/11/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Nosso Aniversário Chegou!!</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Venha Festejar Conosco
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="https://www.instagram.com/cunhachurrascariapiuma/" target="_blank" class="btn btn-primary">
+            <span class="text text-1">Visite nosso Instagram</span>
+
+            <span class="text text-2" aria-hidden="true">Visite nosso Instagram</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/CUNHA-removebg-preview.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Av. Prefeito José de vargas sherrer - Acaiaca, Piúma - ES, 29285-000
+          </address>
+
+          <a href="mailto:cunhachurrascaria@gmail.com" class="body-4 contact-link">cunhachurrascaria@gmail.com</a>
+
+          <a href="tel:(28) 99976-7535" class="body-4 contact-link">Agende sua reserva: (28) 99976-7535</a>
+
+          <p class="body-4">
+            Aberto: 11:00 am - 15:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Self-Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contato</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.facebook.com/cunhapiumachurrascaria/"  target="_blank" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/cunhachurrascariapiuma/" target="_blank" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/place/Cunha+Churrascaria/@-20.8423567,-40.7300313,15z/data=!4m2!3m1!1s0x0:0xe260d53e5c6c9a2d?sa=X&ved=1t:2428&ictx=111"  target="_blank" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Cunha Churrascaria | Criado por <a href="https://github.com/JosueJMuniz"
+            target="_blank" class="link">JosueJMuniz</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
