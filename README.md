@@ -1,10 +1,5 @@
 🥩 Churrascaria Cunha - Site Oficial
 
-https://img.shields.io/badge/status-em%2520produ%C3%A7%C3%A3o-brightgreen
-https://img.shields.io/badge/tecnologias-HTML%252FCSS%252FJavaScript-blue
-https://img.shields.io/badge/responsivo-%E2%9C%94-success
-https://img.shields.io/badge/licen%C3%A7a-MIT-yellow
-https://img.shields.io/badge/localiza%C3%A7%C3%A3o-Pi%C3%BAma,%2520ES-8B0000
 📋 Sobre o Projeto
 
 Site desenvolvido para a Churrascaria Cunha localizada em Piúma, Espírito Santo. O projeto foi criado para resolver a falta de visibilidade digital do restaurante, proporcionando uma presença online profissional que reflete a qualidade do estabelecimento.
